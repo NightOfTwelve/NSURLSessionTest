@@ -29,7 +29,7 @@
     // 文件上传，二进制流
 //    [self NSURLSessionBinaryUploadTaskTest];
 }
-/// 测试NSURLSessionConfiguration
+/// config
 - (void)sessionConfiguration {
 //    NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
     // delegateQueue：请求完成回调函数和代理函数的运行线程，如果为nil则系统自动创建一个串行队列
