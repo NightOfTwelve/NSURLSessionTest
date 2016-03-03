@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 一般数据请求
-//    [self NSURLSessionTest];
+    [self NSURLSessionTest];
     
     // 文件下载
 //    [self NSURLSessionDownloadTaskTest];
