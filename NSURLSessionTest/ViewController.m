@@ -192,7 +192,7 @@
 - (void)NSURLSessionTest {
     // 1.创建url
     // 请求一个网页
-    NSString *urlString = @"http://www.baidu.com";
+    NSString *urlString = @"http://www.cnblogs.com/mddblog/p/5215453.html";
     // 一些特殊字符编码
     urlString = [urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     NSURL *url = [NSURL URLWithString:urlString];

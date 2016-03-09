@@ -16,13 +16,13 @@
 
 /// 在第一次使用推送时，会有这样的疑问：didFinishLaunchingWithOptions会在每次打开程序时被调用，那是不是每次都会调用注册函数，每次都会弹窗询问用户"是否允许推送通知"？其实这个窗口只会在第一次打开程序时弹出一次，无论用户允许或不允许苹果会记住用户的选择，注册函数调用多次对用户也没什么影响
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // iOS8之后和之前应区别对待
-    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
-        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge | UIUserNotificationTypeAlert | UIUserNotificationTypeSound categories:nil];
-        [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
-    } else {
-        [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIUserNotificationTypeSound];
-    }
+//    // iOS8之后和之前应区别对待
+//    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
+//        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge | UIUserNotificationTypeAlert | UIUserNotificationTypeSound categories:nil];
+//        [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+//    } else {
+//        [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIUserNotificationTypeSound];
+//    }
     
     // 获取远程推送消息
     NSDictionary *userInfo = launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey];
