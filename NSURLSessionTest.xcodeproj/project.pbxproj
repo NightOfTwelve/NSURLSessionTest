@@ -13,9 +13,9 @@
 		39FA898C1C7AE9810059ADA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FA898A1C7AE9810059ADA3 /* Main.storyboard */; };
 		39FA898E1C7AE9810059ADA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FA898D1C7AE9810059ADA3 /* Assets.xcassets */; };
 		39FA89911C7AE9810059ADA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FA898F1C7AE9810059ADA3 /* LaunchScreen.storyboard */; };
-		60FA00791C88132300B532E9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 60FA00781C88132300B532E9 /* README.md */; };
 		60FA007D1C8815D800B532E9 /* upload.php in Resources */ = {isa = PBXBuildFile; fileRef = 60FA007B1C8815D800B532E9 /* upload.php */; };
 		60FA007E1C8815D800B532E9 /* upload.php in Resources */ = {isa = PBXBuildFile; fileRef = 60FA007C1C8815D800B532E9 /* upload.php */; };
+		60FA01E11CA29BE100B532E9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 60FA01E01CA29BE100B532E9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		39FA898D1C7AE9810059ADA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39FA89901C7AE9810059ADA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39FA89921C7AE9810059ADA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60FA00781C88132300B532E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		60FA007B1C8815D800B532E9 /* upload.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = upload.php; sourceTree = "<group>"; };
 		60FA007C1C8815D800B532E9 /* upload.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = upload.php; sourceTree = "<group>"; };
+		60FA01E01CA29BE100B532E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,7 @@
 		39FA89801C7AE9810059ADA3 /* NSURLSessionTest */ = {
 			isa = PBXGroup;
 			children = (
+				60FA01E01CA29BE100B532E9 /* README.md */,
 				39FA89841C7AE9810059ADA3 /* AppDelegate.h */,
 				39FA89851C7AE9810059ADA3 /* AppDelegate.m */,
 				39FA89871C7AE9810059ADA3 /* ViewController.h */,
@@ -81,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				39FA89821C7AE9810059ADA3 /* main.m */,
-				60FA00781C88132300B532E9 /* README.md */,
 				60FA007A1C8815D800B532E9 /* upload */,
 				60FA007C1C8815D800B532E9 /* upload.php */,
 			);
@@ -170,7 +170,7 @@
 			files = (
 				39FA89891C7AE9810059ADA3 /* ViewController.m in Sources */,
 				39FA89861C7AE9810059ADA3 /* AppDelegate.m in Sources */,
-				60FA00791C88132300B532E9 /* README.md in Sources */,
+				60FA01E11CA29BE100B532E9 /* README.md in Sources */,
 				39FA89831C7AE9810059ADA3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
